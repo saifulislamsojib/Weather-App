@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #d8fed7;
+}
+
+#left {
+  height: 100vh;
+}
+
+#right {
+  min-height: 100vh;
+  background: palegreen;
+}
+
+#branding {
+  width: 200px;
+  height: auto;
+}
+
+#condition {
+  width: 100px;
+  height: auto;
+}
+
+#master-history {
+  display: none;
+}
+@media (max-width: 768px) {
+  #left {
+    height: 50vh;
+  }
+  #right {
+    min-height: 50vh;
+  }
+  #branding {
+    width: 150px;
+  }
+}
